@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UX/UI Homework 20: PAWS of Austin Case Study</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="firstNav">
+        <div class="logo">
+            <img src="images/JBLogo.svg"></img>
+        </div>
+        <div class="nav-button-container">
+            <ul>
+                <li class="nav-button">
+                    <a href="index.html"><div class="inline-block">ABOUT</div></a>
+                </li>
+                <li class="nav-button">
+                    <a href="index.html"><div class="inline-block">WORK</div></a>
+                </li>
+                <li class="nav-button">
+                    <a href="https://drive.google.com/file/d/1zRApkLvt9xCZ6GshpwoFXKCsau0TBH8q/view?usp=sharing" target="_blank"><div class="inline-block">RESUME</div></a>
+                </li>
+                <li class="nav-button">
+                    <a href="index.html"><div class="inline-block">CONTACT</div></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<!--Bootstrap 4 nav component-->    
+    <nav class="secondNav">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Project Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Defining the Problem</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ideation/Prototyping/Testing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Final Thoughts</a>
+            </li>
+        </ul>
+    </nav>
+<!--Boostrap 4 Jumbotron-->
+    <div class="jumbotron">
+        <h1 class="display-4">Paws of Austin: Responsive Web Redesign</h1>
+        <div class="heroImg ">
+            <img src="images/HeroPawsCS.png">
+        </div>
+        <h4>THE PROJECT:</h4>
+        <p class="lead">I worked with two fellow designers to redesign an awesome new responsive site for the nonprofit animal rescue organization: PAWS of Austin.  
+        </p>
+        <h4>TIMELINE:</h4>
+        <p class="lead">3 Weeks</p>
+        <h4>ROLES:</h4>
+        <p class="lead">UX Researcher, UX/UI Designer, Copy Writer</p>
+        <h4>THE GOAL:</h4>
+        <p class="lead">Improve the site's usuability, traffic, and brand by identifying usability problems defined through user research.</p>
+        <h4>THE PROBLEM:</h4>
+        <p class="lead">Through UX research, we observed a disconnect in communication from the shelter to the people who want to help, causing a lack of interest in adoptions, and donations.</p>
+        <h4>HYPOTHESIS:</h4>
+        <p class="lead">We believe that redesigning the website will increase shelter revenues and provide homes for rescue animals for clients seeking companionship.</p>
+        <h4>THE SOLUTION:</h4>
+        <p class="lead">Redesign the web experience by making it more responsive. This will bridge the gap between users who want to get involved and the organization, thus streamlining the process.</p>
+    </div>
+    <hr class="divider"></hr>
+    <h1 class="display-4">User Research</h1>
+<!--Boostrap 4 List Group Component-->
+<div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="list-overview-list" data-toggle="list" href="#list-overview" role="tab" aria-controls="Overview">Overview</a>
+          <a class="list-group-item list-group-item-action" id="list-survey-list" data-toggle="list" href="#list-survey" role="tab" aria-controls="survey">Survey</a>
+          <a class="list-group-item list-group-item-action" id="list-interviews-list" data-toggle="list" href="#list-interviews" role="tab" aria-controls="interviews">Interviews</a>
+          <a class="list-group-item list-group-item-action" id="list-heuristic-list" data-toggle="list" href="#list-heuristic" role="tab" aria-controls="heuristic">Heuristic Evaluation</a>
+          <a class="list-group-item list-group-item-action" id="list-competitor-list" data-toggle="list" href="#list-competitor" role="tab" aria-controls="competitor">Competitor Analysis</a>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane active" id="list-overview" role="tabpanel" aria-labelledby="list-overview-list"> <p>We created and distributed a survey about pets and shelters and received 52 responses. We conducted 6 user interviews with past, present, and potential pet owners. Questions and conversations highlighted two main areas:
+            <p>1. Insights from user research paved the focus towards pet empathy, and the adoption and donation process moving forward into the next phases of the design thinking process.
+            <p>2. Opinions on animal shelters/rescue organizations.
+            <p>Insights from user research paved the focus towards pet empathy, and the adoption and donation process moving forward into the next phases of the design thinking process.</div>
+          <div class="tab-pane" id="list-survey" role="tabpanel" aria-labelledby="list-survey-list">We found most users are dog owners at almost 70%
+            Cats are a close second at almost 48%
+            We discovered that users would rather donate money over time.
+            Users also prefer to get their pets from rescue organizations.
+            80% have donated in some way to a local pet rescue
+            Full survey results here
+            <div class="charts">
+            <img src="images/Chart 1.png" alt="Survey Results Chart">
+            <img src="images/Chart 2.png" alt="Survey Results Chart">
+            </div>
+        </div>
+          <div class="tab-pane" id="list-interviews" role="tabpanel" aria-labelledby="list-interviews-list"><h4>INSIGHTS:</h4>
+            <p>• Users have strong emotional connections to their pets.
+                <p>• They are frustrated by the lack of communication from local rescue organizations.
+                    <p>• The adoption process can be difficult and full of miscommunication.
+                        <p>• Full Transcripts and Notes 
+              <div class="quotes" id="first">
+                  <img src="images/Quote1.png" alt="Quote">
+              </div>
+              <div class="quotes" id="second">
+                  <img src="images/Quote 2.png" alt="Quote">
+              </div>
+          </div>
+          <div class="tab-pane" id="list-heuristic" role="tabpanel" aria-labelledby="list-heuristic-list">Annotating the current PAWS site highlighted areas for UI improvement and updating.
+              <div class="heuristicEval">
+                <img src="images/heuristic eval.png" alt="Heuristic Evaluation">
+              </div>
+          </div>
+          <div class="tab-pane" id="list-competitor" role="tabpanel" aria-labelledby="list-competitor-list"><p>I completed direct (Austin Humane Society) and indirect (Petfinder) competitor analyses.
+            Results from the competitor analysis provided valuable insight into similar organizations and operations like PAWS.
+            <p>Here are the key finding from the competitor analysis we used moving forward with our design:
+            <p>AUSTIN HUMANE SOCIETY
+                <p>• Many filters available from age to behavior, etc.
+                    <p>• Make donations through online form. Lots of donation opportunities, some with gift incentives.
+                        <p>• Outdated UI and general look: boarder frame, fonts, & color scheme.
+                            <p>PETFINDER
+                                <p>• Comprehensive and expansive personalized pet quiz
+                                    <p>• UI is is very appealing and professional, however reviews express many issues with user's is the lack of response and communication.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="divider"></hr>
+<!--Bootstrap 4 jumbotron-->
+<div class="jumbotron-2">
+    <h1 class="display-4">Defining the Problem</h1>
+    <p class="lead">After combining insights from user interviews, my team and I dove into the define face of the the design thinking process.</p>
+    
+    <p>First, we created a proto persona, and after our interviews, we combined and categorized all of our insights into an affinity diagram</p>
+    <div class="defineImgs">
+        <img src="images/Proto Persona 1.png" alt="Proto Persona">
+    </div>
+    <div class="defineImgs">
+        <img src="images/AffinityDiagram 1.png" alt="Affinity Diagram">
+    </div>
+    <p>Using our our affinity diagram we expanded on the empathetic side of our persona with an empathy map.</p>
+    <div class="defineImgs">
+        <img src="images/EmpathyMap 1.png" alt="Empathy Map">
+    </div>
+    <p>From here we created our user persona: "Jill Barker" a soon to be empty nesting divorced mother of 2.
+    <div class="defineImgs">
+        <img src="images/User Persona 1.png" alt="User Persona">
+    </div> 
+    <p>With Jill's story and persona in the forefront, we defined Jill's user-insight statement.</p>
+    <p>With all these key elements of the define phase in mind, we applied Jill's story with PAWS of Austin. We defined the Problem Statement, Value Proposition, and Ms. Barker's User Journey Map.</p>
+    <div class="defineImgs">
+        <img src="images/User Journey Map 1.png" alt="User Journey Map">
+    </div>
+  </div>
+  <hr class="my-4">
+  <h1 class="display-4">Ideation</h1>
+<!--Bootstrap 4 Collapse-->
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Brainstorm: "I Like, I Wish, What If?"
+        </button>
+      </h2>
+    </div>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+            Next we ideated and expanded on our user persona’s story and the direction of our redesign by defining features, creating a user flow and sitemap.
+            To define the key featres to focus on in our redesign we brainstormed using the “I Like” “I Wish” “What If?” method.
+            <div class="ideationImg">
+                <img src="images/PAWS - I Like I wish What If.png" alt="I Like I wish What If">
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                SWOT Analysis
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            Then we dissected our results into a SWOT Analysis and Feature Prioritization Matrix
+            <div class="ideationImg">
+                <img src="images/PAWS - SWOT.png" alt="SWOT Analysis">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Feature Prioritization Matrix
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            Our key features addressed the need to simplify the adoption experience, particularly the compatibility and donation process.
+            <div class="ideationImg">
+                <img src="images/PAWS - Feature Prioritization Matrix.png" alt="Feature Prioritization Matrix">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingFour">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              User Flow
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+          <div class="card-body">
+            Before moving into prototyping, we created a user flow that seemed most likely for our user person Jill Barker.
+            <div class="ideationImg">
+                <img src="images/PAWS - User Flow.png" alt="User Flow">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Card Sorting and Site Map
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+          <div class="card-body">
+            Lastly, we created a sitemap based on card sorting of the original PAWS of Austin website.
+            <div class="ideationImg">
+                <img src="images/PAWS - cardsort_sitemap.png" alt="Cart Sort and Sitemap">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<hr class="my-4">
+<h1 class="display-4">Prototyping</h1>
+<section class="prototyping">
+    <p>We made a lo-fi prototype of the donation process and a dog compatibility tests, after user testing we made a hi-fi mobile and desktop prototype. Through lots of iterating based on user tests and team discussions we finished the hi-fi prototype with clickable navigation, donating process, dog compatibility test, create an account, and a view all dogs with filtering options.</p>
+    <h2>LO-FI PROTOTYPE</h2>
+    <div class="protoImg">
+        <img src="images/lofiprotype.png" alt="LO-FI PROTOTYPE">
+    </div>
+    <p>We made a lo-fi prototype of the donation process and a dog compatibility tests, after user testing we made a hi-fi mobile and desktop prototype. Through lots of iterating based on user tests and team discussions we finished the hi-fi prototype with clickable navigation, donating process, dog compatibility test, create an account, and a view all dogs with filtering options.</p>
+    <h2>HI-FI PROTOTYPE</h2>
+    <div class="protoImg">
+        <img src="images/hifiprototype.png" alt="HI-FI PROTOTYPE">
+    </div>
+</section>
+<h2>STYLE TILE</h2>
+    <div class="protoImg">
+        <img src="images/Paws-UI-Style-Tile.png" alt="Style Tile">
+    </div>
+<section>
+    <h2>STYLE GUIDE</h2>
+    <div class="protoImgSG">
+        <img src="images/Logo.png" alt="Style Tile Logo">
+        <img src="images/Colors.png" alt="Style Tile Colors">
+        <img src="images/Typography.png" alt="Style Tile Typography">
+        <img src="images/Buttons.png" alt="Style Tile Buttons">
+        <img src="images/Cards.png" alt="Style Tile Cards">
+        <img src="images/Forms.png" alt="Style Tile Forms">
+    </div>
+</section>
+<hr class="my-4">
+<section class="">
+    <h1 class="display-4">User Testing</h1>
+    <div class="testContent">
+    <p>We conducted A/B testing with our lo-fi prototype to decide the stylistic direction of the dog compatibility test. 
+        Collectively we went through many rounds of user testing and iterations. </p>
+    <p>We changed some language and formats to provide more clarity and ease in an easily consumable, visually appealing and fun UI.</p>
+    <h2>LO-FI A/B TESTING</h2>
+    <p>To test the lofi prototype, we conducted testing with 6 users to access:</p>
+    <p>• Functionality of our donation process</p>
+    <p>• Comparative analysis for different form looks</p>
+    <p>• Clarity of the adoption process</p>
+    </div>
+<!--Column Grid for videos-->
+    <h2>ITERATIONS FROM TESTING</h2>
+    <div class="testContent" id=testIterationContent>
+        <p>The biggest change we implemented from our user testing results was the layout of the dog compatibility test. Our users found that it was a bit overwhelming to look at and experience all at once, so we made a new test with smaller sections and a clear progress bar</p>
+        <div class="testingImg">
+            <img src="images/b/a test.png" alt="Before and After Testing">
+        </div>
+        <p>Other key testing findings were adding a skip option for creating an account, changing the button text from adopt me to adoption inquiry. The insights from user tests helped us define a clearer path and user friendly experience.
+        Most tests elicited a lot of “awes” from experiencing too much dog cuteness.</p>
+        <div class="testingImg">
+            <img src="images/b/a buttons.png" alt="Before and After Button text">
+        </div>
+    </div>
+    <hr class="my-4">
+</section>
+<!--Boostrap 4 Column MOCKUPS W/ LINKS or Videos and Final Thoughts-->
+<section class="conclusion">
+    <h1 class="display-4">Final Thoughts</h1>
+    <h4>Take it to the Stakeholders!</h4>
+    <p>Ideally, I would like to present our solutions to the key stakeholder, the person in charge of PAWS of Austin for final evaluation and potential to continue the life of this redesign!.</p>
+    <p>I would polish up a few things, specifically in the mobile version. Things like: adding a progress bar to the top of the compatibility test, adding a keyboard to the form frames, and minimizing some font sizes (specifically headers).</p>
+    <p>I would alter the navigation menu to be just one tab, and I would make the logo a bit more prominent.</p>
+    <p>All in all, I feel like we successfully moved through the design thinking process and created a responsive web design for our chosen nonprofit, PAWS of Austin in the short time allotted and are proud of our final result!</p>
+</section>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+</html>
