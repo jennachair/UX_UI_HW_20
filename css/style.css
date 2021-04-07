@@ -180,3 +180,8 @@ h2 {
     padding-left: 100px;
     padding-right: 100px;
 }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
